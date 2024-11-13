@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "simple_form"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.2"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
@@ -47,5 +48,5 @@ group :development do
   gem "web-console"
 end
 
-gem 'rspec-rails', group: [ :test ]
-gem 'rails-controller-testing', group: [ :test ]
+gem "rspec-rails", group: [ :test ]
+gem "rails-controller-testing", group: [ :test ]
